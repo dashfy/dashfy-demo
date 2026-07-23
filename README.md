@@ -47,7 +47,7 @@ pnpm start
 
 ## Deploy to Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/7bd01354-3f93-4990-bea4-36eaf78c114e?utm_medium=integration&utm_source=button&utm_campaign=dashfy-demo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZidK72?referralCode=INMsTa&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 This project is configured for [Railway](https://railway.app) via [`railway.toml`](./railway.toml):
 
