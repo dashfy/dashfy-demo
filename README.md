@@ -47,6 +47,8 @@ pnpm start
 
 ## Deploy to Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/7bd01354-3f93-4990-bea4-36eaf78c114e?utm_medium=integration&utm_source=button&utm_campaign=dashfy-demo)
+
 This project is configured for [Railway](https://railway.app) via [`railway.toml`](./railway.toml):
 
 ```toml
@@ -55,9 +57,10 @@ buildCommand = "pnpm install && pnpm build"
 
 [deploy]
 startCommand = "pnpm start"
+healthcheckPath = "/health"
 ```
 
-Steps:
+### Deploy from the repo
 
 1. Push this repository to GitHub.
 2. In Railway, create a project from the repo. It picks up `railway.toml` automatically.
