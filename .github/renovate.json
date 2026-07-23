@@ -7,7 +7,7 @@
   "rebaseWhen": "never",
   "packageRules": [
     {
-      "matchPackageNames": ["@getdashfy/server", "@getdashfy/ui"],
+      "matchPackageNames": ["@getdashfy/*"],
       "groupName": "dashfy packages"
     },
     {
