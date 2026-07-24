@@ -1,3 +1,4 @@
+import { createGitHubClient } from '@getdashfy/ext-github/client'
 import { Dashfy } from '@getdashfy/server'
 
 // Create a new Dashfy server instance
@@ -5,6 +6,16 @@ const dashfy = new Dashfy()
 
 // Load dashboard configuration
 await dashfy.configureFromFile('./dashfy.config.yml')
+
+// Register GitHub API
+// Get your token at: https://github.com/settings/tokens
+// Set it with: export GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx in .env file
+dashfy.registerApi(
+  'github',
+  createGitHubClient({
+    token: process.env.GITHUB_TOKEN!,
+  }),
+)
 
 // Start server
 await dashfy.start()

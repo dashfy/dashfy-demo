@@ -1,4 +1,28 @@
-import { Dashfy } from '@getdashfy/ui'
+import {
+  Branches,
+  CommitActivityLine,
+  ContributorsStats,
+  Gitmap,
+  OrgBadge,
+  PullRequests,
+  RepoBadge,
+  Status,
+  UserBadge,
+} from '@getdashfy/ext-github'
+import { Dashfy, WidgetRegistry } from '@getdashfy/ui'
+
+// Register GitHub extension
+WidgetRegistry.addExtension('github', {
+  Branches,
+  CommitActivityLine,
+  ContributorsStats,
+  Gitmap,
+  OrgBadge,
+  PullRequests,
+  RepoBadge,
+  Status,
+  UserBadge,
+})
 
 export const App = () => {
   // In production the UI is served by the Dashfy server itself, so connect to
