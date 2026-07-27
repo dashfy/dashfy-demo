@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@getdashfy/ext-github':
-        specifier: ^0.1.0
-        version: 0.1.0(@getdashfy/ui@0.2.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(recharts@2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8))
+        specifier: ^0.1.1
+        version: 0.1.1(@getdashfy/ui@0.2.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(recharts@2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8))
       '@getdashfy/server':
         specifier: ^0.1.1
         version: 0.1.1
@@ -395,8 +395,8 @@ packages:
   '@floating-ui/utils@0.2.12':
     resolution: {integrity: sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==}
 
-  '@getdashfy/ext-github@0.1.0':
-    resolution: {integrity: sha512-Q/0TZPdix1dUeoGyN5AgweqzRH3almbQ9bEtLCoNhQrqMOaj93c1z42cNytgE37a6hdqiXcscV5wDq8xam60MQ==}
+  '@getdashfy/ext-github@0.1.1':
+    resolution: {integrity: sha512-J7JxNbeyfMUona0yYR9qu0qJ+v+bhoptbJrJn4VIwgoxeCtMpWuxRgrftPk6UseFAapvtQBcBs2xuX2MEFOrXA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@getdashfy/ui': ^0.2.1
@@ -2907,7 +2907,7 @@ snapshots:
 
   '@floating-ui/utils@0.2.12': {}
 
-  '@getdashfy/ext-github@0.1.0(@getdashfy/ui@0.2.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(recharts@2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8))':
+  '@getdashfy/ext-github@0.1.1(@getdashfy/ui@0.2.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(recharts@2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8))':
     dependencies:
       '@getdashfy/ui': 0.2.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@getdashfy/utils': 0.1.1
