@@ -61,6 +61,58 @@ dashboards:
         columns: 2
         rows: 1
         user: rauchg
+  - title: System Monitor
+    columns: 4
+    rows: 3
+    widgets:
+      - extension: system
+        widget: CpuUsageGauge
+        x: 0
+        y: 0
+        columns: 1
+        rows: 1
+      - extension: system
+        widget: MemoryUsageGauge
+        x: 1
+        y: 0
+        columns: 1
+        rows: 1
+      - extension: system
+        widget: DiskUsageGauge
+        x: 2
+        y: 0
+        columns: 1
+        rows: 1
+      - extension: system
+        widget: NetworkStatsCompact
+        x: 3
+        y: 0
+        columns: 1
+        rows: 1
+      - extension: system
+        widget: CpuUsageLine
+        x: 0
+        y: 1
+        columns: 2
+        rows: 1
+      - extension: system
+        widget: MemoryUsageLine
+        x: 2
+        y: 1
+        columns: 2
+        rows: 1
+      - extension: system
+        widget: SystemInfo
+        x: 0
+        y: 2
+        columns: 2
+        rows: 1
+      - extension: system
+        widget: Processes
+        x: 2
+        y: 2
+        columns: 2
+        rows: 1
   - title: Market Prices
     columns: 4
     rows: 3

@@ -1,4 +1,5 @@
 import { createGitHubClient } from '@getdashfy/ext-github/client'
+import { createSystemClient } from '@getdashfy/ext-system/client'
 import { Dashfy } from '@getdashfy/server'
 
 // Create a new Dashfy server instance
@@ -16,6 +17,9 @@ dashfy.registerApi(
     token: process.env.GITHUB_TOKEN!,
   }),
 )
+
+// Register System API (push mode for real-time updates)
+dashfy.registerApi('system', createSystemClient(), 'push')
 
 // Start server
 await dashfy.start()

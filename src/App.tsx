@@ -10,6 +10,21 @@ import {
   UserBadge,
 } from '@getdashfy/ext-github'
 import { PriceLive, TableLive } from '@getdashfy/ext-market-live'
+import {
+  CpuUsage,
+  CpuUsageGauge,
+  CpuUsageLine,
+  DiskUsage,
+  DiskUsageGauge,
+  MemoryUsage,
+  MemoryUsageGauge,
+  MemoryUsageLine,
+  NetworkStats,
+  NetworkStatsCompact,
+  NetworkStatsLine,
+  Processes,
+  SystemInfo,
+} from '@getdashfy/ext-system'
 import { Dashfy, WidgetRegistry } from '@getdashfy/ui'
 
 // Register GitHub extension
@@ -23,6 +38,23 @@ WidgetRegistry.addExtension('github', {
   RepoBadge,
   Status,
   UserBadge,
+})
+
+// Register System extension widgets
+WidgetRegistry.addExtension('system', {
+  CpuUsage,
+  CpuUsageGauge,
+  CpuUsageLine,
+  DiskUsage,
+  DiskUsageGauge,
+  MemoryUsage,
+  MemoryUsageGauge,
+  MemoryUsageLine,
+  NetworkStats,
+  NetworkStatsCompact,
+  NetworkStatsLine,
+  Processes,
+  SystemInfo,
 })
 
 // Register Market Live extension
