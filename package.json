@@ -6,6 +6,7 @@
   "packageManager": "pnpm@10.33.2",
   "scripts": {
     "build": "tsc -b && vite build",
+    "clean": "rm -rf build node_modules",
     "dev": "vite",
     "dev:all": "concurrently \"pnpm dev:server\" \"pnpm dev\"",
     "dev:server": "dotenv -e .env -- tsx watch dashfy.server.ts",
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "@getdashfy/ext-github": "^0.1.1",
+    "@getdashfy/ext-market-live": "^0.1.0",
     "@getdashfy/server": "^0.1.1",
     "@getdashfy/ui": "^0.2.1",
     "react": "^19.2.7",

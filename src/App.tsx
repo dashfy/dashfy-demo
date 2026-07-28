@@ -9,6 +9,7 @@ import {
   Status,
   UserBadge,
 } from '@getdashfy/ext-github'
+import { PriceLive, TableLive } from '@getdashfy/ext-market-live'
 import { Dashfy, WidgetRegistry } from '@getdashfy/ui'
 
 // Register GitHub extension
@@ -22,6 +23,12 @@ WidgetRegistry.addExtension('github', {
   RepoBadge,
   Status,
   UserBadge,
+})
+
+// Register Market Live extension
+WidgetRegistry.addExtension('market-live', {
+  PriceLive,
+  TableLive,
 })
 
 export const App = () => {

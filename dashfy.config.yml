@@ -61,3 +61,61 @@ dashboards:
         columns: 2
         rows: 1
         user: rauchg
+  - title: Market Prices
+    columns: 4
+    rows: 3
+    widgets:
+      - extension: market-live
+        widget: PriceLive
+        x: 0
+        y: 0
+        columns: 1
+        rows: 1
+        feedId: crypto.SOL_USD
+        showChart: false
+      - extension: market-live
+        widget: PriceLive
+        x: 1
+        y: 0
+        columns: 1
+        rows: 1
+        feedId: crypto.XRP_USD
+        showChart: false
+      - extension: market-live
+        widget: PriceLive
+        x: 2
+        y: 0
+        columns: 1
+        rows: 1
+        feedId: crypto.LTC_USD
+        showChart: false
+      - extension: market-live
+        widget: PriceLive
+        x: 3
+        y: 0
+        columns: 1
+        rows: 1
+        feedId: crypto.DOGE_USD
+        showChart: false
+      - extension: market-live
+        widget: PriceLive
+        x: 0
+        y: 1
+        columns: 2
+        rows: 1
+        feedId: crypto.BTC_USD
+        showWindows: false
+      - extension: market-live
+        widget: PriceLive
+        x: 0
+        y: 2
+        columns: 2
+        rows: 1
+        feedId: crypto.ETH_USD
+        showWindows: false
+      - extension: market-live
+        widget: TableLive
+        x: 2
+        y: 1
+        columns: 2
+        rows: 2
