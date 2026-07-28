@@ -12,8 +12,8 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1(@getdashfy/ui@0.2.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(recharts@2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8))
       '@getdashfy/ext-market-live':
-        specifier: ^0.1.0
-        version: 0.1.0(@getdashfy/ui@0.2.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(bufferutil@4.1.0)(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@6.0.3)(utf-8-validate@6.0.6)
+        specifier: ^0.1.1
+        version: 0.1.1(@getdashfy/ui@0.2.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(bufferutil@4.1.0)(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@6.0.3)(utf-8-validate@6.0.6)
       '@getdashfy/server':
         specifier: ^0.1.1
         version: 0.1.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
@@ -424,8 +424,8 @@ packages:
       react-dom: ^19.0.0
       recharts: ^2.15.0
 
-  '@getdashfy/ext-market-live@0.1.0':
-    resolution: {integrity: sha512-Ztl5UUSI9CfH7VzwkFh+OBdZSQJ8s3jS9YyPax4K/gIvh0lv2fN5wAUJau0LtS4kknO/lS6v2/gmr3evKSjlWg==}
+  '@getdashfy/ext-market-live@0.1.1':
+    resolution: {integrity: sha512-p3kYwYP1Zeq2mwRIJPjE6pphUWx73K3mtmA0tKqh2u2aI4ULXx5ajzLJj7Uoouwol+iJuQNkcZfsfIGgbny2gA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@getdashfy/ui': ^0.2.1
@@ -3284,7 +3284,7 @@ snapshots:
       react-dom: 19.2.8(react@19.2.8)
       recharts: 2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
 
-  '@getdashfy/ext-market-live@0.1.0(@getdashfy/ui@0.2.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(bufferutil@4.1.0)(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@6.0.3)(utf-8-validate@6.0.6)':
+  '@getdashfy/ext-market-live@0.1.1(@getdashfy/ui@0.2.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(bufferutil@4.1.0)(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@6.0.3)(utf-8-validate@6.0.6)':
     dependencies:
       '@getdashfy/ui': 0.2.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6)
       '@getdashfy/utils': 0.1.1
