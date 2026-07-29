@@ -108,7 +108,7 @@ dashboards:
         columns: 2
         rows: 1
       - extension: system
-        widget: Processes
+        widget: NetworkStatsLine
         x: 2
         y: 2
         columns: 2
