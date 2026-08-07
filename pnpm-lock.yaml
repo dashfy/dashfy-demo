@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@getdashfy/ext-github':
-        specifier: ^0.2.0
-        version: 0.2.0(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(recharts@2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8))
-      '@getdashfy/ext-market-live':
         specifier: ^0.2.1
-        version: 0.2.1(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(bufferutil@4.1.0)(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@6.0.3)(utf-8-validate@6.0.6)
+        version: 0.2.1(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(recharts@2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8))
+      '@getdashfy/ext-market-live':
+        specifier: ^0.2.2
+        version: 0.2.2(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(bufferutil@4.1.0)(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@6.0.3)(utf-8-validate@6.0.6)
       '@getdashfy/ext-system':
-        specifier: ^0.2.0
-        version: 0.2.0(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: ^0.2.1
+        version: 0.2.1(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@getdashfy/server':
         specifier: ^0.2.0
         version: 0.2.0(bufferutil@4.1.0)(utf-8-validate@6.0.6)
@@ -417,31 +417,31 @@ packages:
   '@floating-ui/utils@0.2.12':
     resolution: {integrity: sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==}
 
-  '@getdashfy/ext-github@0.2.0':
-    resolution: {integrity: sha512-j78n2tNiQ3Xn518BR+GACA4FQ0vuIPMcNWCO94opMbK6SkedxDp+NmO7+Am83485rxadYoTRYiyUPf5IGxxByQ==}
+  '@getdashfy/ext-github@0.2.1':
+    resolution: {integrity: sha512-9MpaveZE/r8QMSrf4lnAtJHbEB02F9bWFf2TZWxGHg/E/itXwvWn6vrOuLbfRFLOudrqwDzpOxkIpgnHoXa0LA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@getdashfy/ui': ^0.3.1
-      lucide-react: ^0.454.0
+      lucide-react: '>=0.454.0'
       react: ^19.0.0
       react-dom: ^19.0.0
       recharts: ^2.15.0
 
-  '@getdashfy/ext-market-live@0.2.1':
-    resolution: {integrity: sha512-AdRXR6J9noVw9XP4A1IK1KeoY3miYZBi0vVnMouTJWXVQR7iH3fdCpJFJl3Z72z9gWzqa9P+wYybSZ7E5B1mNw==}
+  '@getdashfy/ext-market-live@0.2.2':
+    resolution: {integrity: sha512-/li6dMi9uA2lx+kXObTokEbE7hgIflQOFB0gYKIDOOicwRWmuYYDkeA7J1TSiFv8HgBdlVxboVIaPDAS2E/t1Q==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@getdashfy/ui': ^0.3.1
-      lucide-react: ^0.454.0
+      lucide-react: '>=0.454.0'
       react: ^19.0.0
       react-dom: ^19.0.0
 
-  '@getdashfy/ext-system@0.2.0':
-    resolution: {integrity: sha512-RNHdsXpIe3JeZxYaCZ9EyhNcis5x9BIaHlYJ9BxcRfxUv7jk+4UqYS3w+2rfdQ9KwSVT9qtDsW0ZtCUjpbJlOA==}
+  '@getdashfy/ext-system@0.2.1':
+    resolution: {integrity: sha512-BCSug5YtyC+hTHy7A78lePPSPBrSB1pJ8KbXSR1LNSpZqmvRsMaQvlo43mXgg7I7sJAWCcM2M8Npv/aRxOVXkg==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@getdashfy/ui': ^0.3.1
-      lucide-react: ^0.454.0
+      lucide-react: '>=0.454.0'
       react: ^19.0.0
       react-dom: ^19.0.0
 
@@ -3298,7 +3298,7 @@ snapshots:
 
   '@floating-ui/utils@0.2.12': {}
 
-  '@getdashfy/ext-github@0.2.0(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(recharts@2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8))':
+  '@getdashfy/ext-github@0.2.1(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(recharts@2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8))':
     dependencies:
       '@getdashfy/ui': 0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6)
       '@getdashfy/utils': 0.1.1
@@ -3308,7 +3308,7 @@ snapshots:
       react-dom: 19.2.8(react@19.2.8)
       recharts: 2.15.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
 
-  '@getdashfy/ext-market-live@0.2.1(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(bufferutil@4.1.0)(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@6.0.3)(utf-8-validate@6.0.6)':
+  '@getdashfy/ext-market-live@0.2.2(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(bufferutil@4.1.0)(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@6.0.3)(utf-8-validate@6.0.6)':
     dependencies:
       '@getdashfy/ui': 0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6)
       '@getdashfy/utils': 0.1.1
@@ -3324,7 +3324,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@getdashfy/ext-system@0.2.0(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@getdashfy/ext-system@0.2.1(@getdashfy/ui@0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6))(lucide-react@0.555.0(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
       '@getdashfy/ui': 0.3.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(ajv@8.20.0)(bufferutil@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(superstruct@2.0.2)(utf-8-validate@6.0.6)
       '@getdashfy/utils': 0.1.1
