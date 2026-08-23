@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: dashfy-demo
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: pnpm install --frozen-lockfile && pnpm run build
+    startCommand: pnpm run start
+    healthCheckPath: /health
+    autoDeployTrigger: off
+    envVars:
+      - key: GITHUB_TOKEN
+        sync: false

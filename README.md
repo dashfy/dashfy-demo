@@ -45,11 +45,15 @@ pnpm start
 - In production the UI connects to the same origin for WebSocket (see [`src/App.tsx`](./src/App.tsx)), so no extra configuration is needed.
 - The server honors `PORT` (default `5001`) and binds `0.0.0.0`.
 
-## Deploy to Railway
+## Deployment
+
+The demo can be deployed to [Railway](https://railway.app) or [Render](https://render.com). Both run the same build: `pnpm build` then `pnpm start`, with a health check at `/health`.
+
+### Deploy to Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dashfy?referralCode=INMsTa&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
-This project is configured for [Railway](https://railway.app) via [`railway.toml`](./railway.toml):
+Configured via [`railway.toml`](./railway.toml):
 
 ```toml
 [build]
@@ -60,11 +64,33 @@ startCommand = "pnpm start"
 healthcheckPath = "/health"
 ```
 
-### Deploy from the repo
-
 1. Push this repository to GitHub.
 2. In Railway, create a project from the repo. It picks up `railway.toml` automatically.
 3. Under Networking, generate a domain and verify the app plus `/health` and `/config`.
+
+### Deploy to Render
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/dashfy/dashfy-demo)
+
+Configured via [`render.yaml`](./render.yaml):
+
+```yaml
+services:
+  - type: web
+    name: dashfy-demo
+    runtime: node
+    buildCommand: pnpm install --frozen-lockfile && pnpm run build
+    startCommand: pnpm run start
+    healthCheckPath: /health
+    autoDeployTrigger: off
+    envVars:
+      - key: GITHUB_TOKEN
+        sync: false
+```
+
+1. Click the button above (or connect the repo in the Render dashboard).
+2. Enter a `GITHUB_TOKEN` when prompted.
+3. After deploy, open your `.onrender.com` URL and verify `/health` and `/config`.
 
 ## Scripts
 
